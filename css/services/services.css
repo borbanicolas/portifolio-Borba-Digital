@@ -1,0 +1,18 @@
+.services{
+    height: 70vh;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.list__services{
+    display: flex;
+ 
+}
+.services h2{
+    color: var(--primary);
+}
+.services p {
+    color: var(--primary-hover);
+}

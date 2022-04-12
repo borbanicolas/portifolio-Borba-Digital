@@ -1,0 +1,89 @@
+@import url(config/root.css);
+
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.img__banner img{
+    padding-top: 68px;
+    padding-right: 30px;
+    width: 400px;
+    opacity: .8;
+    animation:  mover 3s  ;
+    z-index: 10000;
+    
+}
+.img__banner img:hover{
+    cursor: pointer;
+    opacity: .9;
+}
+.banner__info{
+    color: var(--white);
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 50px;
+}
+.title{
+    width: auto; 
+    display: flex;
+    flex-direction: row;   
+}
+.banner__info h1{
+    font-size: 40px;
+   text-shadow: var(--text-shadow);
+}
+.banner__info p{
+    font-size: 20px;
+    
+    font-weight: bolder;
+}
+.underline{
+    font-size: 40px;
+    display: flex;
+    align-items: flex-end;
+    animation: piscar 1.2s infinite;
+}
+ button{
+    color: var(--white);
+    font-weight: bolder;
+    margin-top: 9px;
+    width: 110px;
+    height: 50px;
+    border-radius: .5rem;
+    background-color: var(--secondary);
+    -webkit-box-shadow: -2px 2px 4px 1px #000000; 
+box-shadow: -2px 2px 4px 1px #000000;
+}
+button:hover{
+    cursor: pointer;
+    width: 105px;
+    background-color: var(--secondary-hover);
+}
+
+
+
+
+@keyframes piscar {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+
+@keyframes mover{
+    0% {
+        transform: translatey(100px);
+      }
+    100%{
+        transform: translatey(0px);
+    }
+}

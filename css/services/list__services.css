@@ -1,0 +1,35 @@
+.list__services{
+    padding: px;
+}
+.service-ux{
+    padding-top: 280px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    animation: moverUx 3s;
+
+}
+.service-dev{
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.services button{
+   margin-top: 100px;
+}
+#service{
+    width: 400px;
+}
+
+
+
+@keyframes moverUx{
+    0% {
+        transform: translatex(200px);
+      }
+    100%{
+        transform: translatex(0px);
+    }
+}
