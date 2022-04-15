@@ -3,7 +3,7 @@ var w, h, loopId, id, canvas, ctx, particles;
 var options = {
     particleColor: "rgba(255,255,255)",
     lineColor: "rgb(72,130,134)",
-    particleAmount: 40,
+    particleAmount: 25,
     defaultRadius: 2,
     variantRadius: 1,
     defaultSpeed: 1,

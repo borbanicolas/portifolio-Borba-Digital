@@ -2,7 +2,7 @@
 
 
 .banner{
-    height: calc(100vh - 110.38px);
+    height: calc(90vh - 101px);
     display: flex;
     
     
@@ -49,23 +49,6 @@
     padding-top: 10px;
     font-size: 40px;
 }
- button{
-    color: var(--white);
-    font-weight: bolder;
-    margin-top: 9px;
-    width: 108px;
-    height: 40px;
-    border-radius: .5rem;
-    background-color: var(--secondary);
-    -webkit-box-shadow: -2px 2px 4px 1px #000000; 
-    box-shadow: -2px 2px 4px 1px #000000;
-    transition: all .1s ease-in-out;
-}
-button:hover{
-    cursor: pointer;
-    width: 107px;
-    background-color: var(--secondary-hover);
-}
 
 
 
@@ -79,7 +62,7 @@ button:hover{
     transition: all .1s ease-in-out;
 }
 .typingAnimation{
-    animation: blinkCursor 800ms steps(40) infinite normal, typingText 6s steps(40) normal both;
+    animation: blinkCursor 800ms steps(40) infinite normal, typingText 4s steps(40) normal both;
 }
 
 @keyframes blinkCursor {
