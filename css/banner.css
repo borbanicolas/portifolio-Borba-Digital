@@ -27,11 +27,11 @@
     flex-direction: row;   
 }
 .banner__info h1{
-    font-size: 30px;
-    padding-top: 2px;
+    font-size: 28px;
+   
 }
 .banner h2{
-   
+    padding-bottom: 8px;
     font-size: 30px;
 }
 .banner__info p{
@@ -79,7 +79,7 @@ button:hover{
     transition: all .1s ease-in-out;
 }
 .typingAnimation{
-    animation: blinkCursor 500ms steps(40) infinite normal, typingText 4s steps(40) normal both;
+    animation: blinkCursor 800ms steps(40) infinite normal, typingText 6s steps(40) normal both;
 }
 
 @keyframes blinkCursor {
@@ -92,6 +92,6 @@ button:hover{
 }
 
 @keyframes typingText {
-    from{ width: 0%;}
-    to{ width: 11.31em;}
+    from{ width: 0;}
+    to{ width: 13em;}
 }

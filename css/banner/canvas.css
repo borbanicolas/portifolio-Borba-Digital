@@ -1,0 +1,15 @@
+
+.net-particle{
+    width: 50%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#canvas{
+    padding-top: 170px;
+    display: block;
+    width: 70%;
+    height: 90%;
+   
+}
