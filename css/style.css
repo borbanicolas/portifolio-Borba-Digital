@@ -32,14 +32,51 @@ box-shadow: 0px 3px 8px 4px #000000;
 .logo:hover{
     cursor:pointer;
 }
-/*menu*/
-.hamburguer{
+.menu{
     position: absolute;
+    width: 20%;
+    background-color: var(--white);
+    left: 80%;top: 0;
+    margin-top: 0;
+    height: 820px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.menu .menu-item a {
+    color: var(--primary);
+}
+.menu .menu-item  {
+    display: flex;
+    font-size: 25px;
+    margin: 20px;
+   width: 100%;
+   height: 10%;
+   align-items: center;
+   justify-content: center;
+  
+}
+.menu .menu-item:hover {
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 15px -5px var(--secondary); 
+    box-shadow: 0px 0px 15px -5px var(--secondary);
+}
+.menuAtivo{
+    display: none;
+
+}
+
+/*menu hamburguer*/
+.hamburguer{
+    position: fixed;
     width: 50px;
     height: 50px;
     background-color: var(--background-1);
     border-radius: 10%;
     position: relative;
+    transition: 1s ease;
 }
 .hamburguer:hover{
    cursor: pointer;
@@ -80,8 +117,9 @@ box-shadow: 0px 3px 8px 4px #000000;
     top: 45%;
     left: 15%;
 }
-
-
+#hamburguer:checked ~ label .hamburguer{
+    border-radius: 50%;
+}
 
 /*Button*/
 
