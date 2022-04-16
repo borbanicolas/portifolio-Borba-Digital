@@ -34,16 +34,19 @@ box-shadow: 0px 3px 8px 4px #000000;
 }
 .menu{
     position: absolute;
-    width: 20%;
+    width: 0;
     background-color: var(--white);
-    left: 80%;top: 0;
+    left: 75%;top: 0;
     margin-top: 0;
     height: 820px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+   
+  
 }
 .menu .menu-item a {
     color: var(--primary);
@@ -56,6 +59,7 @@ box-shadow: 0px 3px 8px 4px #000000;
    height: 10%;
    align-items: center;
    justify-content: center;
+   transition: 4s ease;
   
 }
 .menu .menu-item:hover {
@@ -63,10 +67,13 @@ box-shadow: 0px 3px 8px 4px #000000;
     -webkit-box-shadow: 0px 0px 15px -5px var(--secondary); 
     box-shadow: 0px 0px 15px -5px var(--secondary);
 }
-.menuAtivo{
-    display: none;
 
+.active, menu{
+    opacity: 1;
+    width: 25%;
+    display: flex;
 }
+
 
 /*menu hamburguer*/
 .hamburguer{
@@ -121,11 +128,21 @@ box-shadow: 0px 3px 8px 4px #000000;
     border-radius: 50%;
 }
 
+/*canvas*/
+canvas:hover{
+    
+}
+.net-particle a{
+    position: absolute;
+    width: 100%;
+    cursor: pointer;
+}
 /*Button*/
 
 .button-container{
     display: flex;
     text-align: center;
+    z-index: -1;
 }
 .button-container a{
     display: inline-block;

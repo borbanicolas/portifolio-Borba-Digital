@@ -4,7 +4,7 @@
 .banner{
     height: calc(90vh - 101px);
     display: flex;
-    
+    width:100%;
     
     
 }
@@ -22,13 +22,14 @@
    
 }
 .title{
-    width: auto; 
+    width: 100%; 
     display: flex;
     flex-direction: row;   
 }
 .banner__info h1{
+    width: 100%;
     font-size: 28px;
-   
+    margin: 0;
 }
 .banner h2{
     padding-bottom: 8px;

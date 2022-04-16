@@ -6,6 +6,6 @@ hamburguer.addEventListener('click', functionActive)
 
 function functionActive(){
       
-         menu.classList.toggle('menuAtivo')
+         menu.classList.toggle('active')
 
 }
