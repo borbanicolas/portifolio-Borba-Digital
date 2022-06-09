@@ -12,7 +12,7 @@
             width: 17.5px;
             height: 5px;
             background: $secundary-color;
-            transition: 1s ease;    
+            transition: .9s ease;    
         }&:after{
             content: '';
             border-radius: .2rem;
@@ -21,7 +21,7 @@
             position: absolute;
             top: 40px;
             background: $secundary-color;
-            transition: 1s ease;
+            transition: .9s ease;
         }
         
         
@@ -32,11 +32,11 @@
     .hamburguer{
         transform: rotate(-225deg);
         width: 35px;
-        top: 10%;
+        top: 8%;
                         
         }&::after{
             transform: rotate(225deg);
-            top: 10%;
+            top: 8%;
             
         }
         

@@ -1,8 +1,12 @@
 .banner{
     display: flex;
     align-items: center;
+    justify-content: center;
    .titulo{
         color:$white-color;
         font-weight: bolder;
+   }
+   .banner__info{
+        width: 425px;
    }
 }

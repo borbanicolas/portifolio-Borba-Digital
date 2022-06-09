@@ -7,12 +7,16 @@
             width: 425px;
             background: rgba(255, 255, 255, 0.1);
             backdrop-filter: blur(2px);
+            text-transform: uppercase;
+            font-weight: bolder;
+            letter-spacing: .07rem;
             display: flex;
             color: $white-color;
-            position: absolute;
+            position: fixed;
             top: 0;
             bottom: 0;
             display: none;
+            font-size: 20px;
             transition: .1s;
             
             

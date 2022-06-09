@@ -8,11 +8,14 @@
             display: none;
         }
         .logo{
-            color: $white-color;
-            font-size: 20px;
+           
+            font-size: 18px;
             padding-left: 30px;
             font-weight: bolder;
             text-transform: uppercase;
+            color: $white-color;
+            text-shadow: $text-shadow;
+            letter-spacing: .1rem;
         }
         .menu{
             display: flex;
