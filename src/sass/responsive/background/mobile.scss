@@ -1,0 +1,13 @@
+.background{
+
+    background-color: $primary-color;
+    opacity: .9;
+        width: $mobile-width;
+        .header{
+            width: $mobile-width;
+            .menu{
+                display: none;
+            }
+        }
+    
+}

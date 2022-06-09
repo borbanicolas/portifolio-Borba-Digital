@@ -1,0 +1,44 @@
+.menu-hamburguer{
+        z-index: 99999;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-right: 30px;
+        .hamburguer{
+            position: absolute;
+            border-radius: .2rem;
+            width: 17.5px;
+            height: 5px;
+            background: $secundary-color;
+            transition: 1s ease;    
+        }&:after{
+            content: '';
+            border-radius: .2rem;
+            width: 35px;
+            height: 5px;
+            position: absolute;
+            top: 40px;
+            background: $secundary-color;
+            transition: 1s ease;
+        }
+        
+        
+        
+}
+.menu-active{
+        
+    .hamburguer{
+        transform: rotate(-225deg);
+        width: 35px;
+        top: 10%;
+                        
+        }&::after{
+            transform: rotate(225deg);
+            top: 10%;
+            
+        }
+        
+}
+

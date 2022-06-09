@@ -4,56 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--config-->
+    <link rel="stylesheet" href="src/sass/reset.css">
     <!--font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;1,700&display=swap" rel="stylesheet">
-    <!--config-->
-    <link rel="stylesheet" href="css/config/normalize.css">
-    <link rel="stylesheet" href="css/config/reset.css">
-    <link rel="stylesheet" href="css/config/root.css">
 
-    <link rel="stylesheet" href="css/banner.css">
-    <link rel="stylesheet" href="css/banner/canvas.css">
-   
-    <link rel="stylesheet" href="css/services/services.css">
-    <link rel="stylesheet" href="css/services/list__services.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/config/responsive.css">
+
+    <link rel="stylesheet" href="src/sass/style.css">
     <title>Minimal is my Religion!</title>
 </head>
 <body>
     <div class="background">
+
         <header class="header">
-
-            <div class="logo">Borba
-
-            </div>
-
-
+            <div class="logo">Borba</div>
             <ul class="menu ">
                 <li class="menu-item"><a href="">Sobre</a></li>
                 <li class="menu-item"><a href="">Projetos</a></li>
                 <li class="menu-item"><a href="">Carreira</a></li>
                 <li class="menu-item"><a href="">contato</a></li>
             </ul>
-
-
-            <input type="checkbox" id="hamburguer"></input>
-            
-
-                <label for="hamburguer">
-                    <div class="hamburguer">
-                        
-                    </div>
-                    
-                </label>
-          
-            
-
-
+            <div class="menu-hamburguer">
+                <span class="hamburguer"></span>
+            </div>
+            <div class="menu-mobile">
+                <ul class="list-hamburguer">
+                    <li class="hamburguer-item"><a href="wwww.google.com">Sobre</a> </li>
+                    <li class="hamburguer-item"><a href="">Projetos</a> </li>
+                    <li class="hamburguer-item"><a href="">Contato</a> </li>
+                </ul>
+            </div>
         </header>
-
 
 
         <section class="banner">
@@ -63,11 +46,7 @@
                     <h2>Nicolas Borba</h2>
                     <h1 class="line typingAnimation typing">&lt;/Desenvolvedor Front-end> </h1>
                     <p class="p">Desenvolvo aplicacoes web interativas, animadas e com uma excelente performance em Experiencia de Usuario</p>
-                    <div class="button-container">
-                        <a href="#" class="button">
-                            <span>Projetos</span>
-                        </a>
-                    </div>
+                    <button>Projetos</button>
                 </div>
             </div>
            

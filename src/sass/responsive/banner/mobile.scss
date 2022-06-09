@@ -1,0 +1,54 @@
+@media (max-width: $mobile-width){
+
+    .banner{
+        width: $mobile-width;
+        .banner__info{
+            display: flex;
+            position: absolute;
+            z-index: 200;
+            height: 80vh;
+            justify-content: center;
+            align-items: center;
+            opacity: 1;
+            transition: .4s;
+            .titulo{
+                height: 300px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                color: $white-color;
+                font-weight: bolder;
+                h1{
+                    padding-top: 15px;
+                }
+                h2{
+                    padding-top: 15px;
+                    font-size: 30px;
+                }
+                .p{
+                    padding-top: 30px;
+                    font-size: 13px;
+                    
+                }
+                button{
+                    margin-top: 50px;
+                }    
+            }
+        }.info-active{
+            opacity: 0;
+            
+            z-index: -1;
+        }
+        .net-particle{
+            #canvas{
+                width: $mobile-width;
+                position: relative;
+                z-index: 1;
+            }
+        }
+    }
+
+
+}

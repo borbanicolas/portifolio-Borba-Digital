@@ -1,0 +1,25 @@
+/* Variables*/
+@import 'variables/colors/colors.scss';
+@import 'variables/size/mobile.scss';
+
+
+
+
+
+
+/* Components*/
+@import'components/text.scss'; 
+@import 'components/button.scss';
+@import 'components/menu-hamburguer.scss';
+@import 'components/link.scss';
+
+
+
+@import 'responsive/header/header.scss';
+
+/*mobile*/
+/* Responsive */
+@import 'responsive/background/mobile.scss';
+@import 'responsive/header/mobile.scss';
+@import 'responsive/banner/mobile.scss';                
+

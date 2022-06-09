@@ -1,0 +1,37 @@
+@media (max-width: $mobile-width){
+    .header{
+        width: $mobile-width;
+        padding-top: 20px;
+        .menu-mobile{
+            height: 100vh;
+            width: 425px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(2px);
+            display: flex;
+            color: $white-color;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            display: none;
+            transition: .1s;
+            
+            
+        }
+        .menu-mobile-activy{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 555;
+        }
+    }
+    .menu-mobile{
+        .list-hamburguer{
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
+            
+        }
+    }
+}
